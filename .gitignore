@@ -8,10 +8,10 @@ wp-config-*.php
 
 # WordPress uploads
 /wp-content/uploads/
-/wp-content/plugins/
+/wp-content/plugins/*
 /wp-content/themes/*
 !/wp-content/themes/my-custom-theme
-!/wp-content/plugins/custom-woo-test
+!/wp-content/plugins/custom-woo-test    
 # Cache
 /wp-content/cache/
 /wp-content/upgrade/
