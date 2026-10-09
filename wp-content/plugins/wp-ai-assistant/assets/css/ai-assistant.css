@@ -1,0 +1,38 @@
+
+.wp-ai-assistant {
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 24px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.wp-ai-assistant textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 12px;
+}
+
+.wp-ai-assistant button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wp-ai-assistant .ai-error {
+    padding: 12px;
+    margin-bottom: 15px;
+    color: #842029;
+    background: #f8d7da;
+    border-radius: 5px;
+}
+
+.wp-ai-assistant .ai-answer {
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #f0f7ff;
+    border-radius: 5px;
+}
