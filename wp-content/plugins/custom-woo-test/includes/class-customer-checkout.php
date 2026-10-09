@@ -31,7 +31,7 @@ Class CustomerCheckout{
     public function validate_customer_reference(){
         if( empty($_POST['customer_reference']) ){
             wc_add_notice(
-                'Customer Reference is required.',
+                '<a href="#customer_reference"><strong>Customer Reference</strong> is a required field.</a>',
                 'error'
             );
         }
